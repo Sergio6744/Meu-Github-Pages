@@ -1,0 +1,140 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   outline: 0px;
+   border: none;
+   text-decoration: none;
+   font-family: sans-serif;
+}
+
+body::-webkit-scrollbar {
+   width: 0px;
+}
+
+#eu {
+   height: 255px;
+   width: 255px;
+   border-radius: 50%;
+   position: relative;
+   top: 125px;
+   left: calc(50% - 125px);
+   margin: auto;
+   border: 5px solid white;
+}
+
+header {
+   background-image: url("FUNDO.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-bottom: 150px;
+}
+
+nav > img {
+   height: 35px;
+   width: 45px;
+   padding: 5px;
+}
+
+nav {
+   display: inline-block;
+   position: absolute;
+   left: calc(100% - 240px);
+   margin: auto;
+}
+
+main {
+   padding-right: 40px;
+   padding-left: 40px;
+   max-width: 1000px;
+   margin: auto;
+}
+
+h1 {
+   font-size: 3.5em;
+   margin-bottom: 20px;
+}
+
+p, a {
+   font-size: 1.5em;
+   line-height: 1.7em;
+}
+
+#contato {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+#contato > a {
+   color: rgb(255, 0, 100);
+   display: inline-block;
+   margin-right: 45px;
+   margin-left: 45px;
+}
+
+#contato > a > img {
+   height: 20px;
+   width: 20px;
+}
+
+h2 {
+   font-size: 2.3em;
+   margin-top: 40px;
+   margin-bottom: 20px;
+}
+
+.info {
+   color: rgb(130, 130, 143);
+}
+
+#repos {
+   margin-top: 40px;
+}
+
+.nome {
+   color: rgb(255, 0, 100);
+   font-size: 2em;
+}
+
+iframe {
+   height: 500px;
+   width: 800px;
+   border: 1px solid rgb(130, 130, 130);
+   border-radius: 15px;
+}
+
+.repos  {
+   width: 800px;
+   margin: auto;
+   margin-bottom: 100px;
+}
+
+.conteiner_flex {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.link {
+   color: rgb(255, 0, 100);
+   margin-left: calc(100% - 30px);
+}
+
+footer {
+   background: black;
+   padding: 300px;
+   color: white;
+   margin-top: 350px;
+}
+
+footer > p {
+   margin: auto;
+   text-align: center;
+}
+
+iframe:hover  {
+   outline: 2px solid rgb(255, 0, 100);
+   border: none;
+}
